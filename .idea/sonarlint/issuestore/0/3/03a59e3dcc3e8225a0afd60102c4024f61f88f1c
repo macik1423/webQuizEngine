@@ -1,0 +1,13 @@
+
+^
+java:S1117W"<Rename "userQuiz" which hides the field declared at line 27.(‹§êûÿÿÿÿ8“ùïô×.
+x
+java:S1488L"\Immediately return this expression instead of assigning it to the temporary variable "quiz".(¹÷û8“ùïô×.
+^
+java:S1117'"<Rename "userQuiz" which hides the field declared at line 27.(‹§êûÿÿÿÿ8“ùïô×.
+L
+java:S3740&"/Provide the parametrized type for this generic.(ŒŒÎÏ8“ùïô×.
+^
+java:S1117`"<Rename "userQuiz" which hides the field declared at line 27.(‹§êûÿÿÿÿ8“ùïô×.
+I
+java:S1068",Remove this unused "userQuiz" private field.(¼øŸØ8“ùïô×.

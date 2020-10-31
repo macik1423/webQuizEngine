@@ -1,0 +1,8 @@
+
+·
+java:S1598"™This file "UserQuizController.java" should be located in "engine\controller" directory, not in "E:\Programowanie\webQuizEngine\src\main\java\controller".(¸ƒı’8¢œãô×.
+K
+java:S1128".Remove this unused import 'engine.model.Quiz'.(±‚¶8¢œãô×.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¼ØŠÈ8¢œãô×.
+X
+java:S1068"6Remove this unused "userQuizRepository" private field.(–Ò™Òûÿÿÿÿ8¢œãô×.

@@ -1,0 +1,15 @@
+
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(Éÿ¢¢şÿÿÿÿ8ªâô×.
+b
+java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8ªâô×.
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8ªâô×.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬Åê›şÿÿÿÿ8ªâô×.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(œª‰8ªâô×.
+U	java:S1065"9Replace this use of System.out or System.err by a logger.(ÿ—Ü¬8ªâô×.
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(¤Ç°îıÿÿÿÿ8ªâô×.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ÿ°„’üÿÿÿÿ8ªâô×.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(’Ú›8ªâô×.
+b
+java:S4684."@Replace this persistent entity with a simple POJO or DTO object.(›»âúÿÿÿÿ8œõ€õ×.

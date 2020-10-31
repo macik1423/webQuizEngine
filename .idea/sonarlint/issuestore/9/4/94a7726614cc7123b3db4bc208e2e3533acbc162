@@ -1,0 +1,8 @@
+
+Á
+java:S1598"žThis file "CompletedQuizRepository.java" should be located in "engine\repository" directory, not in "E:\Programowanie\webQuizEngine\src\main\java\repository".(„þ¹ºýÿÿÿÿ8‰„ëô×.
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8‰„ëô×.
+y
+java:S1128
+"\Remove this unused import 'org.springframework.security.core.context.SecurityContextHolder'.(ŒÄæë8‰„ëô×.

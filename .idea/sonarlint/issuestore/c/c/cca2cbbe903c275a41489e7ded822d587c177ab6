@@ -1,0 +1,9 @@
+
+¸
+java:S1598"•This file "QuizRepository.java" should be located in "engine\repository" directory, not in "E:\Programowanie\webQuizEngine\src\main\java\repository".(„ş¹ºıÿÿÿÿ8äíëô×.
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8äíëô×.
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8äíëô×.
+T
+java:S1128"8Remove this unused import 'org.apache.tomcat.jni.Local'.(å¡.8äíëô×.
