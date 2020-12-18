@@ -1,6 +1,9 @@
 package engine.service;
 
 import engine.config.IAuthenticationFacade;
+import engine.model.Feedback;
+import engine.model.QuizSpecifiedProjection;
+import engine.model.UserQuiz;
 import engine.repository.CompletedQuizRepository;
 import engine.repository.QuizRepository;
 import engine.repository.UserQuizRepository;
@@ -21,10 +24,10 @@ import java.util.Map;
 public class QuizService {
     private QuizRepository quizRepository;
     private CompletedQuizRepository completedQuizRepository;
-    private engine.model.Feedback feedback;
+    private Feedback feedback;
     private IAuthenticationFacade authenticationFacade;
     private UserQuizRepository userQuizRepository;
-    private engine.model.UserQuiz userQuiz;
+    private UserQuiz userQuiz;
 
     public QuizService(QuizRepository quizRepository, CompletedQuizRepository completedQuizRepository, engine.model.Feedback feedback, IAuthenticationFacade authenticationFacade, UserQuizRepository userQuizRepository, engine.model.UserQuiz userQuiz) {
         this.quizRepository = quizRepository;
@@ -72,8 +75,8 @@ public class QuizService {
         return quiz.getAnswer().containsAll(requestAnswer) && requestAnswer.containsAll(quiz.getAnswer());
     }
 
-    public engine.model.QuizSpecifiedProjection getQuizById(Long id) {
-        engine.model.QuizSpecifiedProjection quiz = quizRepository.findQuizSpecifiedById(id).orElseThrow(() ->
+    public QuizSpecifiedProjection getQuizById(Long id) {
+        QuizSpecifiedProjection quiz = quizRepository.findQuizSpecifiedById(id).orElseThrow(() ->
                 new ResponseStatusException(HttpStatus.NOT_FOUND));
         return quiz;
     }

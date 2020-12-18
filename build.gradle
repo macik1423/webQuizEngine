@@ -25,10 +25,12 @@ dependencies {
     implementation 'org.springframework.security:spring-security-test'
     compile("org.springframework.boot:spring-boot-starter-web")
     compile group: 'org.modelmapper', name: 'modelmapper', version: '2.3.8'
+    testCompile("org.assertj:assertj-core:3.11.1")
 }
 
 test {
     useJUnitPlatform()
+
 }
 
 task generateTestingValues() {
