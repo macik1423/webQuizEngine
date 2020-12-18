@@ -1,0 +1,14 @@
+POST http://localhost:8889/api/register
+
+<> 2020-12-17T142057.415.json
+
+###
+
+GET http://localhost:8889/api/quizzes
+
+###
+
+GET http://localhost:8889/api/quizzes/{{id}}
+
+###
+

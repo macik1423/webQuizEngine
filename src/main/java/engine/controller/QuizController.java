@@ -31,14 +31,12 @@ public class QuizController {
 
     @GetMapping("/quizzes/{id}")
     public QuizSpecifiedProjection getQuizById(@PathVariable long id) {
-        System.out.println("getQuizById");
         return quizService.getQuizById(id);
     }
 
     @GetMapping("/quizzes")
     public Page<QuizSpecifiedProjection> getQuizzes(@RequestParam(defaultValue = "0") int page,
                                                     @RequestParam(defaultValue = "10") int pageSize) {
-        System.out.println("getQuizzes");
         return quizService.getQuizzes(page, pageSize);
     }
 

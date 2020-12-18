@@ -14,17 +14,14 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/api")
 public class UserQuizController {
-    private UserQuizRepository userQuizRepository;
-    private UserQuizService userQuizService;
+    private final UserQuizService userQuizService;
 
-    public UserQuizController(UserQuizRepository userQuizRepository, UserQuizService userQuizService) {
-        this.userQuizRepository = userQuizRepository;
+    public UserQuizController(UserQuizService userQuizService) {
         this.userQuizService = userQuizService;
     }
 
     @PostMapping(value = "/register", consumes = "application/json")
     public UserQuiz registerUser(@Valid @RequestBody UserQuiz userQuiz) {
-        System.out.println("registerUser");
         return userQuizService.save(userQuiz);
     }
 }
