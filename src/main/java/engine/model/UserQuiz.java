@@ -22,10 +22,10 @@ public class UserQuiz {
     private String password;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "author", fetch = FetchType.LAZY)
-    private List<engine.model.Quiz> createdQuizzes;
+    private List<Quiz> createdQuizzes;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "completedBy", fetch = FetchType.LAZY)
-    private List<engine.model.CompletedQuiz> completedQuizzes;
+    private List<CompletedQuiz> completedQuizzes;
 
     public UserQuiz() {
     }
@@ -34,19 +34,19 @@ public class UserQuiz {
         return id;
     }
 
-    public List<engine.model.CompletedQuiz> getCompletedQuizzes() {
+    public List<CompletedQuiz> getCompletedQuizzes() {
         return completedQuizzes;
     }
 
-    public void setCompletedQuizzes(List<engine.model.CompletedQuiz> completedQuizzes) {
+    public void setCompletedQuizzes(List<CompletedQuiz> completedQuizzes) {
         this.completedQuizzes = completedQuizzes;
     }
 
-    public List<engine.model.Quiz> getCreatedQuizzes() {
+    public List<Quiz> getCreatedQuizzes() {
         return createdQuizzes;
     }
 
-    public void setCreatedQuizzes(List<engine.model.Quiz> createdQuizzes) {
+    public void setCreatedQuizzes(List<Quiz> createdQuizzes) {
         this.createdQuizzes = createdQuizzes;
     }
 

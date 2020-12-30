@@ -7,7 +7,7 @@ plugins {
 group 'org.example'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = '11'
+sourceCompatibility = '1.8'
 
 repositories {
     mavenCentral()
@@ -22,10 +22,31 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.security:spring-security-test'
     compile("org.springframework.boot:spring-boot-starter-web")
     compile group: 'org.modelmapper', name: 'modelmapper', version: '2.3.8'
+    testCompile("org.assertj:assertj-core:3.11.1")
 }
 
 test {
     useJUnitPlatform()
+
+}
+
+task generateTestingValues() {
+    doLast {
+        File dataSql = file("src/main/resources/data.sql")
+        dataSql.write("")
+        //user_quiz
+        for (int i = 1; i <= 100; i++) {
+            dataSql.append("insert into user_quiz(id, email, password) values ('${i}', '${i}@com.pl', 'abcde');\n");
+        }
+
+        //quiz
+        for (int i = 0; i < 100; i++) {
+            int user_quiz_id = 1 + i % 10;
+            dataSql.append("insert into quiz(id, text, title, user_quiz_id)" +
+                " values ('${i + 1}', 'ala ma kota a kot ma wpierdol', 'kot', '${user_quiz_id}');\n")
+        }
+    }
 }

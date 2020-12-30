@@ -33,10 +33,10 @@ public class Quiz implements Serializable {
     private List<Integer> answer;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "quiz")
-    private List<engine.model.CompletedQuiz> completedQuizzes;
+    private List<CompletedQuiz> completedQuizzes;
 
     @ManyToOne
-    @JoinColumn(name = "user_quiz_id")
+    @JoinColumn(name = "USER_QUIZ_ID")
     private UserQuiz author;
 
     public Quiz() {

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - UserQuizControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>UserQuizControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/engine.controller.html">engine.controller</a> &gt; UserQuizControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.530s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldRegisterAndGetContent()</td>
+<td class="success">0.530s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:45:26.234 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:45:26.234 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:45:26.265 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [engine.controller.UserQuizControllerTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:45:26.281 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [engine.controller.UserQuizControllerTest], using SpringBootContextLoader
+14:45:26.281 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [engine.controller.UserQuizControllerTest]: class path resource [engine/controller/UserQuizControllerTest-context.xml] does not exist
+14:45:26.281 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [engine.controller.UserQuizControllerTest]: class path resource [engine/controller/UserQuizControllerTestContext.groovy] does not exist
+14:45:26.281 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [engine.controller.UserQuizControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:45:26.281 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [engine.controller.UserQuizControllerTest]: UserQuizControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:45:26.328 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [engine.controller.UserQuizControllerTest]
+14:45:26.390 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Maciej_Kowalik\webQuizEngine\build\classes\java\main\engine\WebQuizEngine.class]
+14:45:26.390 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration engine.WebQuizEngine for test class engine.controller.UserQuizControllerTest
+14:45:26.500 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [engine.controller.UserQuizControllerTest]: using defaults.
+14:45:26.500 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+14:45:26.515 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@84a90a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@136b525, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1284287, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@153839, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17418c8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1951ade, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c5351, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1896653, org.springframework.test.context.event.EventPublishingTestExecutionListener@9e9d32, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@10e3155, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a433fe, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1db64e7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@17214e3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@17e18c1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1f1e013]
+14:45:26.515 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6e7bde testClass = UserQuizControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7ca16c testClass = UserQuizControllerTest, locations = '{}', classes = '{class engine.WebQuizEngine}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@12ec11d, [ImportsContextCustomizer@1e3ccc1 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1ed64a8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@13a4102, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@40c07c], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+14:45:26.547 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.6.RELEASE)
+
+2020-12-18 14:45:26.765  INFO 8588 --- [    Test worker] e.controller.UserQuizControllerTest      : Starting UserQuizControllerTest on WCOR0705 with PID 8588 (started by KowalikM in D:\Maciej_Kowalik\webQuizEngine)
+2020-12-18 14:45:26.765  INFO 8588 --- [    Test worker] e.controller.UserQuizControllerTest      : No active profile set, falling back to default profiles: default
+2020-12-18 14:45:27.531  INFO 8588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-18 14:45:27.593  INFO 8588 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 3 JPA repository interfaces.
+2020-12-18 14:45:28.124  INFO 8588 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-18 14:45:28.187  INFO 8588 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-12-18 14:45:28.327  INFO 8588 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-18 14:45:28.421  INFO 8588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-18 14:45:28.515  INFO 8588 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-18 14:45:28.530  INFO 8588 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table completed_quiz if exists
+Hibernate: drop table quiz if exists
+Hibernate: drop table quiz_answer if exists
+Hibernate: drop table quiz_options if exists
+Hibernate: drop table user_quiz if exists
+Hibernate: drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Hibernate: create table completed_quiz (id bigint not null, completed_at timestamp, user_quiz_id bigint, quiz_id bigint, primary key (id))
+Hibernate: create table quiz (id bigint generated by default as identity, text varchar(255) not null, title varchar(255) not null, user_quiz_id bigint, primary key (id))
+Hibernate: create table quiz_answer (quiz_id bigint not null, answer integer)
+Hibernate: create table quiz_options (quiz_id bigint not null, options varchar(255))
+Hibernate: create table user_quiz (id bigint generated by default as identity, email varchar(255), password varchar(255), primary key (id))
+Hibernate: alter table completed_quiz add constraint FKk4ineuv709kh92w0oebtt2dt2 foreign key (user_quiz_id) references user_quiz
+Hibernate: alter table completed_quiz add constraint FK4x48uvtt7y7xfmla0abtjxp47 foreign key (quiz_id) references quiz
+Hibernate: alter table quiz add constraint FKto5pukp3cmo6gfv5dyxc8p92r foreign key (user_quiz_id) references user_quiz
+Hibernate: alter table quiz_answer add constraint FKoxi2td1x8cc3y4a0vlsg2hfnc foreign key (quiz_id) references quiz
+Hibernate: alter table quiz_options add constraint FKsx28j7orq6asg17veq9nblhw8 foreign key (quiz_id) references quiz
+2020-12-18 14:45:29.327  INFO 8588 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-18 14:45:29.327  INFO 8588 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-18 14:45:29.577  WARN 8588 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-18 14:45:30.139  INFO 8588 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : Autowired annotation should only be used on methods with parameters: public long engine.model.Quiz.getId()
+2020-12-18 14:45:30.343  INFO 8588 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ed4daa, org.springframework.security.web.context.SecurityContextPersistenceFilter@17946b9, org.springframework.security.web.header.HeaderWriterFilter@14dcada, org.springframework.security.web.authentication.logout.LogoutFilter@174ecc6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@187fe7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7575ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10484a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2404c, org.springframework.security.web.session.SessionManagementFilter@6028cd, org.springframework.security.web.access.ExceptionTranslationFilter@7c136f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b7ae8c]
+2020-12-18 14:45:30.686  INFO 8588 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-18 14:45:31.217  INFO 8588 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/mydbTest'
+2020-12-18 14:45:31.295  INFO 8588 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2020-12-18 14:45:31.295  INFO 8588 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2020-12-18 14:45:31.311  INFO 8588 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-12-18 14:45:31.342  INFO 8588 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 47 ms
+2020-12-18 14:45:31.374  INFO 8588 --- [    Test worker] e.controller.UserQuizControllerTest      : Started UserQuizControllerTest in 4.823 seconds (JVM running for 5.861)
+2020-12-18 14:45:31.420  INFO 8588 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@6e7bde testClass = UserQuizControllerTest, testInstance = engine.controller.UserQuizControllerTest@bb5451, testMethod = shouldRegisterAndGetContent@UserQuizControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7ca16c testClass = UserQuizControllerTest, locations = '{}', classes = '{class engine.WebQuizEngine}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@12ec11d, [ImportsContextCustomizer@1e3ccc1 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1ed64a8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@13a4102, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@40c07c], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@155c72c]; rollback [true]
+Hibernate: select userquiz0_.id as col_0_0_ from user_quiz userquiz0_ where userquiz0_.email=? limit ?
+Hibernate: insert into user_quiz (id, email, password) values (null, ?, ?)
+Hibernate: select userquiz0_.id as id1_4_, userquiz0_.email as email2_4_, userquiz0_.password as password3_4_ from user_quiz userquiz0_ where userquiz0_.email=?
+2020-12-18 14:45:31.952  INFO 8588 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@6e7bde testClass = UserQuizControllerTest, testInstance = engine.controller.UserQuizControllerTest@bb5451, testMethod = shouldRegisterAndGetContent@UserQuizControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7ca16c testClass = UserQuizControllerTest, locations = '{}', classes = '{class engine.WebQuizEngine}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@12ec11d, [ImportsContextCustomizer@1e3ccc1 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1ed64a8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@13a4102, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@40c07c], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.3</a> at 2020-12-18 14:45:32</p>
+</div>
+</div>
+</body>
+</html>
